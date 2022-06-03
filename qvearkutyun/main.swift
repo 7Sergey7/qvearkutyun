@@ -26,5 +26,5 @@ func election(yes: [Int], no: [Int]) -> String {
     return electionResults
 }
 
-let results = election(yes: [], no: [])
+let results = election(yes: [1,], no: [])
 print(results)
